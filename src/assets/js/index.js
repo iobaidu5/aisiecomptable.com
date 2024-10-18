@@ -13,9 +13,6 @@ $(document).ready(function () {
 });
 
 
-console.log("location.pathname -> ", location.pathname)
-
-
 const nav = document.querySelector(".fixedNav");
 window.addEventListener("scroll", fixNav);
 
@@ -32,7 +29,7 @@ function fixNav() {
   $(document).ready(function () {
   var owl = $(".owl");
   owl.owlCarousel({
-    items: 1,
+    items: 6,
     nav: false,
     loop: true,
     autoplay: true,
@@ -57,15 +54,15 @@ function fixNav() {
         nav: true,
       },
       768: {
-        items: 2,
+        items: 3,
         nav: true,
       },
       1200: {
-        items: 3,
+        items: 4,
         nav: false,
       },
       1600: {
-        items: 3,
+        items: 6,
         nav: true,
         loop: false,
       },
