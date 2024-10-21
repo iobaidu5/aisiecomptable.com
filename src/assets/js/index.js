@@ -46,7 +46,7 @@ function fixNav() {
     responsiveClass: true,
     responsive: {
       100: {
-        items: 1,
+        items: 2,
         nav: true,
       },
       400: {

@@ -15,7 +15,7 @@
           </ul>
         </div>
         <div>
-          <a href="mailto:cfv.commercial@orange.fr" class="top-btn">Devis en ligne</a>
+          <a href="{% link devis.html %}" class="top-btn">Devis en ligne</a>
         </div>
       </div>
     </div>
@@ -26,6 +26,14 @@
 <section class="Navbar navbar-main fixedNav">
   <nav class="navbar Navbar_main navbar-expand-lg fixedNav">
     <div class="container to-col">
+      <div class="Navbar_image to-show-990">
+        <a href="{% link accueil.html %}" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
+          class="Navbar_image-img" alt="Logo" /></a>
+      </div>
+      <button class="navbar-toggler Navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa fa-bars toggle-button Navbar_toggler-icon" aria-hidden="true"></i>
+    </button>
       <div class="collapse navbar-collapse Navbar_nav-collapse" id="navbarNav">
         <ul class="navbar-nav Navbar_nav w-100">
           <li class="nav-item Navbar_nav-item">
@@ -34,22 +42,21 @@
           <li class="nav-item Navbar_nav-item">
             <a class="nav-link Navbar_nav-link" title="Nos Prestations" href="{% link nos-prestations.html %}"> Nos Prestations </a>
           </li>
-          <li class="nav-item Navbar_nav-item">
+          <li class="nav-item Navbar_nav-item to-hide-990">
             <a href="{% link accueil.html %}" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
                 class="Navbar_image-img" alt="Logo" /></a>
           </li>
           <li class="nav-item Navbar_nav-item">
-            <a class="nav-link Navbar_nav-link" title="Notre entreprise" href="">Notre entreprise</a>
+            <a class="nav-link Navbar_nav-link" title="Notre entreprise" href="{% link notre-entreprise.html %}">Notre entreprise</a>
           </li>
           <li class="nav-item Navbar_nav-item">
-            <a class="nav-link Navbar_nav-link" title="Nous contacter" href=""> Nous contacter </a>
+            <a class="nav-link Navbar_nav-link" title="Nous contacter" href="{% link contact.html %}"> Nous contacter </a>
+          </li>
+          <li class="nav-item Navbar_nav-item to-show-990">
+            <a href="{% link devis.html %}" class="top-btn">Devis en ligne</a>
           </li>
         </ul>
       </div>
     </div>
-    <button class="navbar-toggler Navbar_toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa fa-bars toggle-button Navbar_toggler-icon" aria-hidden="true"></i>
-    </button>
   </nav>
 </section>
