@@ -22,6 +22,9 @@
 <loc>http://localhost:4000/galerie</loc>
 </url>
 <url>
-<loc>http://localhost:4000/nos-prestation</loc>
+<loc>http://localhost:4000/nos-prestations</loc>
+</url>
+<url>
+<loc>http://localhost:4000/notre-entreprise</loc>
 </url>
 </urlset>
