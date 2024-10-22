@@ -171,37 +171,41 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="prenom" name="prenom" placeholder="Prenom" />
+                  <input type="text" class="black_form-input" id="prenom" name="prenom" placeholder="Prénom(s)*" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="name" name="name" placeholder="Nom" />
+                  <input type="text" class="black_form-input" id="name" name="name" placeholder="Nom*" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="address" name="address" placeholder="Adresse*" />
+                  <input type="text" class="black_form-input" id="email" name="email" placeholder="Email*" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="postal" name="postal" placeholder="Code postal*" />
+                  <input type="text" class="black_form-input" id="phone" name="phone" placeholder="Télé*" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="ville" name="ville" placeholder="Ville*" />
+                  <input type="text" class="black_form-input" id="societe" name="societe" placeholder="Société*" />
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="phone" name="phone" placeholder="Téléphone" />
+                  <select name="quelle-installation" id="quelle-installation" class="black_form-input">
+                    <option value="Objet" selected>Type*</option>
+                    <option value="Cabinet comptable">Cabinet comptable</option>
+                    <option value="Entreprise">Entreprise</option>
+                  </select>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <input type="text" class="black_form-input" id="email" name="email" placeholder="Email" />
+                  <input type="text" class="black_form-input" id="address" name="address" placeholder="Adresse*" />
                 </div>
               </div>
             </div>
@@ -216,24 +220,45 @@
             <div class="form-group has-feedback">
               <label class="black_form-labeltitle text-left justify-content-start text-black f-w-700">Type de prestations</label>
               <div class="row flex-column align-items-start">
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                   <div class="checkbox" style="margin-top: 0;">
                     <label class="black_form-label text-left justify-content-start text">
-                      <input type="checkbox" name="checkbox1"> &nbsp; Obsèques
+                      <input type="checkbox" name="checkbox1"> &nbsp; Gestion des Documents Comptables
                     </label>
                   </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                   <div class="checkbox" style="margin-top: 0;">
                     <label class="black_form-label text-left justify-content-start text">
-                      <input type="checkbox" name="checkbox2"> &nbsp; Prévoyance
+                      <input type="checkbox" name="checkbox2"> &nbsp; Saisie comptable 
                     </label>
                   </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-8">
                   <div class="checkbox" style="margin-top: 0;">
                     <label class="black_form-label text-left justify-content-start text">
-                      <input type="checkbox" name="checkbox3"> &nbsp; Monument
+                      <input type="checkbox" name="checkbox3"> &nbsp; Déclarations Fiscales
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="checkbox" style="margin-top: 0;">
+                    <label class="black_form-label text-left justify-content-start text">
+                      <input type="checkbox" name="checkbox3"> &nbsp; Reporting
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="checkbox" style="margin-top: 0;">
+                    <label class="black_form-label text-left justify-content-start text">
+                      <input type="checkbox" name="checkbox3"> &nbsp; Comptabilité Clients / Fournisseurs
+                    </label>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="checkbox" style="margin-top: 0;">
+                    <label class="black_form-label text-left justify-content-start text">
+                      <input type="checkbox" name="checkbox3"> &nbsp; Clôtures Comptables
                     </label>
                   </div>
                 </div>
@@ -242,7 +267,7 @@
           </div>
           <div class="col-md-12">
             <div class="form-group">
-              <textarea class="black_form-input h-100" id="commentaire" rows="5" placeholder="Message"></textarea>
+              <textarea class="black_form-input h-100" id="commentaire" rows="4" placeholder="Message"></textarea>
             </div>
           </div>
         </div>
@@ -348,10 +373,10 @@
       <hr class="menu_bg-col--hr">
       <div class="footer_bottom d-flex justify-content-between py-5">
         <div>
-          <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link text-center">© 2024 Insight Consulting. All rights reserved. </a>
+          <a href="" target="_blank" class="footer_content-li--link text-center">© 2024 Insight Consulting. All rights reserved. </a>
         </div>
         <div>
-          <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link text-center">Copyright ©
+          <a href="" target="_blank" class="footer_content-li--link text-center">Copyright ©
             2024 BHinternet</a>
         </div>
       </div>
