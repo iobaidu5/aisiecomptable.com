@@ -91,9 +91,24 @@
           <li class="nav-item Navbar_nav-item">
             <a class="nav-link Navbar_nav-link" title="Accueil" href="./index.html"> Accueil</a>
           </li>
-          <li class="nav-item Navbar_nav-item">
-            <a class="nav-link Navbar_nav-link" title="Nos Prestations" href="./nos-prestations.html"> Nos Prestations </a>
-          </li>
+          <!-- <li class="nav-item Navbar_nav-item">
+            <a class="nav-link Navbar_nav-link" title="Nos Prestations" href="./nos-prestations.html">  </a>
+          </li> -->
+          <li class="nav-item dropdown Navbar_nav-item">
+            <a class="nav-link  Navbar_nav-link  dropdown-toggle d-flex align-items-center"
+                href="./nos-prestations.html" id="navbarDropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">Nos prestations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="py-3 dropdown-item  Navbar_nav-link2 "
+                    href="./je-suis-un-cabinet-comptable.html">Je suis un Cabinet comptable</a>
+                <hr class="Navbar_nav-hr">
+                <a class="py-3 dropdown-item  Navbar_nav-link2 "
+                    href="./je-suis-une-entreprise.html">Je suis une entreprise</a>
+                <hr class="Navbar_nav-hr">
+            </div>
+        </li>
+        
           <li class="nav-item Navbar_nav-item to-hide-990">
             <a href="./index.html" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
                 class="Navbar_image-img" alt="Logo" /></a>
@@ -132,100 +147,12 @@
     
 
     <div class="">
-        <section class="menu">
-  <div class="">
-    <div class="row align-items-center">
-      <div class="col-md-6">
-        <div class="menu_content menu2 container">
-          <div class="menu_content-button">
-            <p class="menu_content-button--btn1">NOS PRESTATIONS</p>
-          </div>
-          <h2 class="menu_content-title">Offre de solutions adaptée et personnalisée selon vos besoins.</h2>
-          <p class="menu_content-p">
-            <strong>Insight Consulting</strong> offre une gamme complète de services pour simplifier et optimiser la
-            gestion de votre comptabilité. Notre expertise couvre chaque étape clé de vos besoins comptables, vous
-            permettant de vous concentrer sur le développement de votre entreprise tout en nous confiant les tâches
-            techniques. Nous nous engageons à vous fournir un accompagnement fiable, réactif et sur mesure, adapté à la
-            taille et aux spécificités de votre structure.
-          </p>
-          <p class="menu_content-p">
-            Nos prestations incluent la <strong>gestion des documents comptables,</strong> pour organiser et archiver
-            vos données efficacement. Nous assurons la <strong>saisie comptable,</strong> en prenant en charge
-            l'enregistrement rigoureux de vos transactions. La <strong>comptabilité clients/fournisseurs</strong> permet
-            un suivi précis des flux financiers avec vos partenaires commerciaux. Nous gérons également vos
-            <strong>déclarations fiscales,</strong> en garantissant le respect des délais et des obligations légales. Le
-            <strong>reporting</strong> vous offre une vision claire et détaillée de votre performance financière, et les
-            <strong>clôtures comptables</strong> assurent une fin d’exercice précise et conforme
-          </p>
-          <div class="slider_content-button">
-            <a href="./nos-prestations.html" class="slider_content-button--a">
-              VOIR LES DÉTAILS
-              <img src="./assets/img/btn-arrow.png" alt="Arrow Icon" class="slider_content-button--img">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="menu_bg">
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Gestion des documents comptables</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Saisie comptable</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Comptabilité clients / Fournisseurs</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Déclarations fiscales</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Reporting</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-
-          <div class="menu_bg-col">
-            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
-              <p class="menu_bg-col--p">Clôtures comptables</p>
-            </div>
-            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
-          </div>
-          <hr class="menu_bg-col--hr">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="menu section">
+        <section class="menu section">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="menu_image">
-          <img src="./assets/img/1.jpeg" alt="" class="menu_image-img">
+          <img src="./assets/img/ebene.webp" alt="" class="menu_image-img">
         </div>
         <div class="menu_logocard">
           <img src="./assets/img/logo.png" alt="" class="menu_logocard-img">
@@ -404,6 +331,163 @@ function toggleFaq(element) {
     </div>
   </div>
 </section>
+
+<section class="menu section-y bg-grey mt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="menu_content">
+          <div class="menu_content-button">
+            <p class="menu_content-button--btn1">Nos clients</p>
+          </div>
+          <p class="menu_content-p">Nous collaborons principalement avec deux types de clients : les cabinets comptables
+            et les entreprises. Les <strong>cabinets comptables</strong> font appel à nos services pour déléguer
+            certaines tâches, ce qui leur permet d'optimiser leur charge de travail et de se concentrer sur des missions
+            à plus forte valeur ajoutée. De leur côté, les <strong>entreprises,</strong> qu'il s'agisse de PME ou de
+            grandes structures, externalisent leur comptabilité afin de réduire leurs coûts et d'améliorer l'efficacité
+            de leur gestion financière, en bénéficiant d'une expertise sans avoir à gérer une équipe interne.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="menu_content-button w-100 mt-5">
+                <p class="menu_content-button--btn5 w-100 f-w-900">
+                  <img src="./assets/img/entreprise.png" alt="" class="menu_content-button--img">
+                  Entreprises
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="menu_content-button w-100 mt-5">
+                <p class="menu_content-button--btn5 w-100 f-w-900">
+                  <img src="./assets/img/cabinet.png" alt="" class="menu_content-button--img">
+                  Cabinets de comptable
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="menu section-y">
+  <div class="">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="menu_content menu2 container">
+          <div class="menu_content-button">
+            <p class="menu_content-button--btn1">NOS PRESTATIONS</p>
+          </div>
+          <h2 class="menu_content-title">Offre de solutions adaptée et personnalisée selon vos besoins.</h2>
+          <p class="menu_content-p">
+            <strong>Insight Consulting</strong> offre une gamme complète de services pour simplifier et optimiser la
+            gestion de votre comptabilité. Notre expertise couvre chaque étape clé de vos besoins comptables, vous
+            permettant de vous concentrer sur le développement de votre entreprise tout en nous confiant les tâches
+            techniques. Nous nous engageons à vous fournir un accompagnement fiable, réactif et sur mesure, adapté à la
+            taille et aux spécificités de votre structure.
+          </p>
+          <p class="menu_content-p">
+            Nos prestations incluent la <strong>gestion des documents comptables,</strong> pour organiser et archiver
+            vos données efficacement. Nous assurons la <strong>saisie comptable,</strong> en prenant en charge
+            l'enregistrement rigoureux de vos transactions. La <strong>comptabilité clients/fournisseurs</strong> permet
+            un suivi précis des flux financiers avec vos partenaires commerciaux. Nous gérons également vos
+            <strong>déclarations fiscales,</strong> en garantissant le respect des délais et des obligations légales. Le
+            <strong>reporting</strong> vous offre une vision claire et détaillée de votre performance financière, et les
+            <strong>clôtures comptables</strong> assurent une fin d’exercice précise et conforme
+          </p>
+          <div class="slider_content-button">
+            <a href="./nos-prestations.html" class="slider_content-button--a">
+              VOIR LES DÉTAILS
+              <img src="./assets/img/btn-arrow.png" alt="Arrow Icon" class="slider_content-button--img">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="menu_bg">
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Gestion des documents comptables</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Saisie comptable</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Comptabilité clients / Fournisseurs</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Déclarations fiscales</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Reporting</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+
+          <div class="menu_bg-col">
+            <div class="menu_bg-col--icon1"><i class="fas fa-file-alt"></i>
+              <p class="menu_bg-col--p">Clôtures comptables</p>
+            </div>
+            <div class="menu_bg-col--icon2"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <hr class="menu_bg-col--hr">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="menu section bg-white pt-0">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-12">
+        <div class="owl-carousel owl d-flex align-items-center">
+          <div class="menu_image">
+            <img src="./assets/img/acd.png" alt="" class="menu_image-partner">
+          </div>
+          <div class="menu_image">
+            <img src="./assets/img/qua.png" alt="" class="menu_image-partner">
+          </div>
+          <div class="menu_image">
+            <img src="./assets/img/cegid.png" alt="" class="menu_image-partner">
+          </div>
+          <div class="menu_image">
+            <img src="./assets/img/penny.png" alt="" class="menu_image-partner">
+          </div>
+          <div class="menu_image">
+            <img src="./assets/img/ebp.png" alt="" class="menu_image-partner">
+          </div>
+          <div class="menu_image">
+            <img src="./assets/img/sage.png" alt="" class="menu_image-partner">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="stripe2">
   <div class="container">
     <div class="row align-items-center">
@@ -485,9 +569,6 @@ function toggleFaq(element) {
               </ul>
             </div>
           </div>
-          <div class="menu_content-button d-flex justify-content-center mt-5 pt-5">
-            <p class="menu_content-button--btn1">Outils et technologies</p>
-          </div>
         </div>
       </div>
     </div>
@@ -495,35 +576,7 @@ function toggleFaq(element) {
 </section>
 
 
-<section class="menu section bg-white pt-0">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-md-12">
-        <div class="owl-carousel owl d-flex align-items-center">
-          <div class="menu_image">
-            <img src="./assets/img/acd.png" alt="" class="menu_image-partner">
-          </div>
-          <div class="menu_image">
-            <img src="./assets/img/qua.png" alt="" class="menu_image-partner">
-          </div>
-          <div class="menu_image">
-            <img src="./assets/img/cegid.png" alt="" class="menu_image-partner">
-          </div>
-          <div class="menu_image">
-            <img src="./assets/img/penny.png" alt="" class="menu_image-partner">
-          </div>
-          <div class="menu_image">
-            <img src="./assets/img/ebp.png" alt="" class="menu_image-partner">
-          </div>
-          <div class="menu_image">
-            <img src="./assets/img/sage.png" alt="" class="menu_image-partner">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="black">
+<section class="black m-b-5">
   <div class="container">
     <div class="black_inner">
       <div class="row">
@@ -625,44 +678,7 @@ function toggleFaq(element) {
     </div>
   </div>
 </section>
-<section class="menu section-y bg-grey">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="menu_content">
-          <div class="menu_content-button">
-            <p class="menu_content-button--btn1">Nos clients</p>
-          </div>
-          <p class="menu_content-p">Nous collaborons principalement avec deux types de clients : les cabinets comptables
-            et les entreprises. Les <strong>cabinets comptables</strong> font appel à nos services pour déléguer
-            certaines tâches, ce qui leur permet d'optimiser leur charge de travail et de se concentrer sur des missions
-            à plus forte valeur ajoutée. De leur côté, les <strong>entreprises,</strong> qu'il s'agisse de PME ou de
-            grandes structures, externalisent leur comptabilité afin de réduire leurs coûts et d'améliorer l'efficacité
-            de leur gestion financière, en bénéficiant d'une expertise sans avoir à gérer une équipe interne.</p>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="menu_content-button w-100 mt-5">
-                <p class="menu_content-button--btn5 w-100 f-w-900">
-                  <img src="./assets/img/entreprise.png" alt="" class="menu_content-button--img">
-                  Entreprises
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="menu_content-button w-100 mt-5">
-                <p class="menu_content-button--btn5 w-100 f-w-900">
-                  <img src="./assets/img/cabinet.png" alt="" class="menu_content-button--img">
-                  Cabinets de comptable
-                </p>
-              </div>
-            </div>
-          </div>
 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
     </div>
     <div class="fixphone">
       <a href="tel:00 00 00 00 00" title="00 00 00 00 00" class="one phoneone">
