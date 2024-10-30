@@ -10,12 +10,12 @@ keywords:
   <div class="container">
     <div class="slider_content">
       <h1 class="slider_content-title">NOUS CONTACTER</h1>
-      <div class="slider_content-button">
+      <!-- <div class="slider_content-button">
         <a href="#" class="slider_content-button--a">
           DEMANDE DE DEVIS
           <img src="../assets/img/btn-arrow.png" alt="Arrow Icon" class="slider_content-button--img">
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -80,9 +80,15 @@ keywords:
             <input type="hidden" name="firstName" value="" />
             <input type="hidden" name="key" value="{{ site.data.company.recaptcha.server }}" />
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-6">
                 <div class="form-group">
                   <input type="text" class="black_form-input" id="name" name="name" placeholder="Nom/ Prénom *"
+                    required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="black_form-input" id="societe" name="societe" placeholder="Société *"
                     required>
                 </div>
               </div>
@@ -100,11 +106,8 @@ keywords:
               </div>
               <div class="col-md-12">
                 <div class="form-group">
-                  <select name="quelle-installation" id="quelle-installation" class="black_form-input">
-                    <option value="Objet" selected>Objet</option>
-                    <option value="">Tst1</option>
-                    <option value="">Tst2</option>
-                  </select>
+                  <input type="text" class="black_form-input" id="objet" name="objet"
+                    placeholder="Objet*" required>
                 </div>
               </div>
               <div class="col-md-12">

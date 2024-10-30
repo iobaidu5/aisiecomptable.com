@@ -5,16 +5,16 @@ name:
 phone: 00 00 00 00 00
 tel:   
 
-email: 
-address: 
+email: contact@insightconsulting.mu
+address: Insight Consulting, Ebéne, Île Maurice
 location: 
 
 websiteAddr: bhinternet.fr
 website: 
 
 recaptcha:
-  client: 
-  server: 
+  client: 6LeKMmgqAAAAAIpe0NkT1l-Y2GAAe40juZaTfYrZ
+  server: 6LeKMmgqAAAAAOCTZEzrxFmOMcElJOziBe0O1Fd_
   
 lang: fr
 url:

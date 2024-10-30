@@ -15,12 +15,12 @@
                 class="footer_content-li--link {% if page.url == '/' %} active-clr {% endif %}">Accueil</a>
             </li>
             <li class="footer_content-li">
-              <a href=""
-                class="footer_content-li--link {% if page.url == '/nos-services' %} active-clr {% endif %}">Notre
+              <a href="{% link notre-entreprise.html %}"
+                class="footer_content-li--link {% if page.url == '/notre-entreprise' %} active-clr {% endif %}">Notre
                 entreprise</a>
             </li>
             <li class="footer_content-li">
-              <a href="" class="footer_content-li--link {% if page.url == '/galerie' %} active-clr {% endif %}">Nos
+              <a href="{% link nos-prestations.html %}" class="footer_content-li--link {% if page.url == '/nos-prestations' %} active-clr {% endif %}">Nos
                 prestations</a>
             </li>
             <li class="footer_content-li">
@@ -29,8 +29,8 @@
                 contacter</a>
             </li>
             <li class="footer_content-li">
-              <a href=""
-                class="footer_content-li--link {% if page.url == '/mentions-legales' %} active-clr {% endif %}">Devis en ligne</a>
+              <a href="{% link devis.html %}"
+                class="footer_content-li--link {% if page.url == '/devis' %} active-clr {% endif %}">Devis en ligne</a>
             </li>
           </ul>
         </div>
@@ -46,10 +46,10 @@
             </li>
             <li class="footer_content-li">
               <a href="mailto:{{site.data.company.email}}" class="footer_content-li--link"> Email :
-                contact@insightconsulting.mu</a>
+                {{site.data.company.email}}</a>
             </li>
             <li class="footer_content-li">
-              <p class="footer_content-li--p"> Adresse : Insight Consulting, Port-Louis, Île Maurice</p>
+              <p class="footer_content-li--p"> Adresse : {{site.data.company.address}}</p>
             </li>
           </ul>
         </div>
@@ -71,11 +71,11 @@
       <hr class="menu_bg-col--hr">
       <div class="footer_bottom d-flex justify-content-between py-5">
         <div>
-          <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link text-center">© 2024 Insight Consulting. All rights reserved. </a>
+          <p class="footer_content-li--link2 text-center">© 2024 Insight Consulting. All rights reserved. </p>
         </div>
         <div>
-          <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link text-center">Copyright ©
-            2024 BHinternet</a>
+          <p class="footer_content-li--link2 text-center">Copyright ©
+            2024 <a href="https://www.bhinternet.fr/" target="_blank" class="footer_content-li--link text-center">BHinternet</a></p>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 <header>
   <div class="top">
     <div class="container-fluid">
-      <div id="banniere-rs" class="d-flex justify-content-end w-100">
+      <div id="banniere-rs" class="d-flex justify-content-end align-items-center w-100">
         <div class="text-right">
-          <ul class="social">
+          <ul class="social mt-3">
             <li>
               <a href="#" class=""><i class="fab fa-linkedin-in"></i></a>
             </li>
@@ -39,9 +39,24 @@
           <li class="nav-item Navbar_nav-item">
             <a class="nav-link Navbar_nav-link" title="Accueil" href="{% link accueil.html %}"> Accueil</a>
           </li>
-          <li class="nav-item Navbar_nav-item">
-            <a class="nav-link Navbar_nav-link" title="Nos Prestations" href="{% link nos-prestations.html %}"> Nos Prestations </a>
-          </li>
+          <!-- <li class="nav-item Navbar_nav-item">
+            <a class="nav-link Navbar_nav-link" title="Nos Prestations" href="{% link nos-prestations.html %}">  </a>
+          </li> -->
+          <li class="nav-item dropdown Navbar_nav-item">
+            <a class="nav-link {% if page.url == '/' %} Navbar_nav-link {% else %} Navbar_nav-link2 {% endif %} dropdown-toggle d-flex align-items-center"
+                href="{% link nos-prestations.html %}" id="navbarDropdown" role="button"
+                aria-haspopup="true" aria-expanded="false">Nos prestations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="py-3 dropdown-item {% if page.url == '/je-suis-un-cabinet-comptable' %} Navbar_nav-link inner-active {% else %} Navbar_nav-link2 {% endif %}"
+                    href="{% link je-suis-un-cabinet-comptable.html %}">Je suis un Cabinet comptable</a>
+                <hr class="Navbar_nav-hr">
+                <a class="py-3 dropdown-item {% if page.url == '/je-suis-une-entreprise' %} Navbar_nav-link inner-active {% else %} Navbar_nav-link2 {% endif %}"
+                    href="{% link je-suis-une-entreprise.html %}">Je suis une entreprise</a>
+                <hr class="Navbar_nav-hr">
+            </div>
+        </li>
+        
           <li class="nav-item Navbar_nav-item to-hide-990">
             <a href="{% link accueil.html %}" title="Accueil"><img loading="lazy" src="./assets/img/logo.png"
                 class="Navbar_image-img" alt="Logo" /></a>
